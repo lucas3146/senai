@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*Site */
+table{
+    border: 1px dashed rgb(123, 123, 255);
+    padding: 5px;
+    background-color: darkviolet;
+}
+th {
+    border: 1px solid grey;
+    background-color: rgb(128, 128, 255);
+}
