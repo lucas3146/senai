@@ -1,0 +1,11 @@
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 800px;
+}
+
+.img-game {
+    width: 100%;
+    height: 400px;
+}
