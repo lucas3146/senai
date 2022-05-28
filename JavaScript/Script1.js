@@ -23,7 +23,7 @@ console.log(Lista_usuario)
 console.log(Lista_Senha)
 
 function verificar() {
-    if (user.value == 'Lucas3146' && key.value == '123') {
+    if (user.value == localStorage.getItem("Nome") && key.value == localStorage.getItem("Senha")) {
         /*
         var site = "TechGames"
         var URL = "index.html"
