@@ -11,7 +11,7 @@ function Cadastrar() {
         localStorage.setItem("Nome", NomeCadastro.value)
         localStorage.setItem("Senha", SenhaCadastro.value)
 
-        const win = window.open("Login.html")
+        const win = window.open("/login.html")
         win.focus();
 
     }
