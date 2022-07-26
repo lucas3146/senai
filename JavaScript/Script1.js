@@ -11,7 +11,7 @@ function Cadastrar() {
         localStorage.setItem("Nome", NomeCadastro.value)
         localStorage.setItem("Senha", SenhaCadastro.value)
 
-        const win = window.open("Login.html", "_blank")
+        const win = window.open("Login.html")
         win.focus();
 
     }
@@ -29,7 +29,7 @@ function verificar() {
         var URL = "index.html"
         document.write("Clique no " + site.link(URL))*/
         var URL = "index.html"
-        const win = window.open(URL, '_blank');
+        const win = window.open(URL);
         win.focus();
     } else {
         alert("Desculpe, usuário ou senha estão incorretos");
